@@ -1,0 +1,93 @@
+
+/* styling of navigtion bar*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+/*styling of Pie Chart*/
+h1 {
+	width: 100%;
+	text-align: center;
+	font-size: 50px;
+}
+
+#pie {
+	margin: auto;
+	position:relative;
+	height: 500px;
+	width: 500px;
+	border-radius: 100%;
+	overflow: hidden;
+}
+
+.pie_text {
+    color: black;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+}
+
+#red {
+	border: solid white 2px;
+	text-align: center;
+	height:50%;
+	width:50%;
+	background-color: red;
+	position: absolute;
+	bottom:50%;
+	right: 50%;
+}
+#yellow {
+	border: solid white 2px;
+	text-align: center;
+	height:50%;
+	width:50%;
+	background-color: yellow;
+	position: absolute;
+	bottom:50%;
+	left:50%;	
+}
+#green {
+	border: solid white 2px;
+	text-align: center;
+	height:50%;
+	width:50%;
+	background-color: green;
+	position: absolute;
+	top:50%;
+	left:50%;	
+}
+#blue {
+	border: solid white 2px;
+	text-align: center;
+	height:50%;
+	width:50%;
+	background-color: blue;
+	position: absolute;
+	top:50%;
+	right:50%;	
+}
+
